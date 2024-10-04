@@ -7,6 +7,6 @@ export const typeOrmConfig: TypeOrmModuleOptions = {
   username: 'root', 
   password: '', 
   database: 'edhub_live', 
-  entities: [__dirname + '/../**/*.entity.{js,ts}'], 
+  entities: [__dirname + '/**/*.entity{.ts,.js}'],
   synchronize: false, 
 };
